@@ -4,27 +4,16 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
+    android:background="#CCCCCC"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/bookIconImageView"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="377dp"
+        android:layout_height="204dp"
         android:layout_centerInParent="true"
         android:contentDescription="@null"
-        android:src="@drawable/white_book_icon" />
-
-    <TextView
-        android:id="@+id/bookITextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bookIconImageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:text="@string/booki"
-        android:textColor="@color/colorSplashText"
-        android:textSize="16sp" />
+        android:src="@drawable/finek_final_sans" />
 
     <ProgressBar
         android:id="@+id/loadingProgressBar"

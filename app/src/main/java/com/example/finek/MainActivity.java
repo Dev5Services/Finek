@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTick(long millisUntilFinished) {
-                bookITextView.setVisibility(GONE);
+
                 loadingProgressBar.setVisibility(GONE);
                 rootView.setBackgroundColor(ContextCompat.getColor(MainActivity.this, R.color.colorSplashText));
-                bookIconImageView.setImageResource(R.drawable.background_color_book);
+                bookIconImageView.setImageResource(R.drawable.finek_final_sans);
                 startAnimation();
             }
 
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         bookIconImageView = findViewById(R.id.bookIconImageView);
-        bookITextView = findViewById(R.id.bookITextView);
+
         loadingProgressBar = findViewById(R.id.loadingProgressBar);
         rootView = findViewById(R.id.rootView);
         afterAnimationView = findViewById(R.id.afterAnimationView);
