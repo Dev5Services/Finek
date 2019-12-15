@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">Finek</string>
     <string name="booki">BookI</string>
-    <string name="welcome_back">Welcome Back</string>
-    <string name="read_it_together">Read it together</string>
-    <string name="skip">Skip</string>
-    <string name="login">Login</string>
+    <string name="Bienvenue">Bienvenue</string>
+    <string name="read_it_together">Dans votre application</string>
+    <string name="skip">Suivant</string>
+    <string name="login">Se connecter</string>
     <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="sign_up">Sign up</string>
-    <string name="forget_password">Forget Password.?</string>
+    <string name="password">Mot de passe</string>
+    <string name="sign_up">S inscrire</string>
+    <string name="forget_password">Mot de passe oublié?</string>
 </resources>
