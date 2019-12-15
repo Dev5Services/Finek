@@ -3,10 +3,16 @@
     <string name="booki">BookI</string>
     <string name="Bienvenue">Bienvenue</string>
     <string name="read_it_together">Dans votre application</string>
+    <string name="bienvenue_2">Bienvenue parmis nous !</string>
     <string name="skip">Suivant</string>
     <string name="login">Se connecter</string>
+    <string name="inscription">Inscription</string>
     <string name="email">Email</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="tel">Téléphone</string>
     <string name="password">Mot de passe</string>
+    <string name="conf_password">Confirmez </string>
     <string name="sign_up">S inscrire</string>
     <string name="forget_password">Mot de passe oublié?</string>
 </resources>
