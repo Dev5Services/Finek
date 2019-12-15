@@ -8,7 +8,7 @@
          <item name="colorAccent">@color/colorAccent</item>
      </style>
     -<style name="ProgressBarStyle">
-         <item name="colorAccent">@color/colorProgressBar</item>
+         <item name="colorAccent">@color/colorfirstpage</item>
      </style>
 
 </resources>
