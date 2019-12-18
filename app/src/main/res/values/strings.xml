@@ -15,4 +15,11 @@
     <string name="conf_password">Confirmez </string>
     <string name="sign_up">S inscrire</string>
     <string name="forget_password">Mot de passe oublié?</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Mot de passe</string>
+    <string name="header">Voici votre\npremier pas\navec nous</string>
+    <string name="mdp_oublie">Mot de passe oublié?</string>
+    <string name="new_user">Nouveau utilisateur? Inscrivez vous maintenant</string>
+    <string name="social">Utilisez d\'autres méthodes</string>
+    <string name="phone">Numero de téléphone</string>
 </resources>
