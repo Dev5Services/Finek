@@ -67,7 +67,7 @@
                             <EditText
                                 android:id="@+id/editTextName"
                                 style="@style/modifiedEditText"
-                                android:Hint="Nom"
+                                android:hint="Nom"
                                 android:inputType="textPersonName"
                                 android:maxLines="1" />
                         </com.google.android.material.textfield.TextInputLayout>
