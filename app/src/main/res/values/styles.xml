@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     -<style parent="Theme.AppCompat.Light.NoActionBar" name="AppTheme">
     <!-- Customize your theme here. -->
-         <item name="colorPrimary">@color/colorPrimary</item>
-         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorPrimary">@color/register_bk_color</item>
+         <item name="colorPrimaryDark">@color/register_bk_color</item>
          <item name="colorAccent">@color/colorAccent</item>
      </style>
     -<style name="ProgressBarStyle">
@@ -44,7 +44,7 @@
 
     <style name="modifiedEditText" parent="parent">
         <item name="android:textSize">@dimen/newsMoreTextSize</item>
-        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/primaryTextColor</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/register_bk_color</item>
     </style>
 
     <style name="loginButton" parent="viewParent">
@@ -58,5 +58,4 @@
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:paddingLeft">5dp</item>
     </style>
-
 </resources>

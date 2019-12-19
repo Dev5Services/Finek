@@ -33,18 +33,18 @@
 
                     <ImageView
                         android:id="@+id/logo3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="184dp"
+                        android:layout_width="212dp"
+                        android:layout_height="183dp"
                         android:layout_alignParentStart="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentEnd="true"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentBottom="true"
-                        android:layout_marginStart="99dp"
-                        android:layout_marginLeft="99dp"
-                        android:layout_marginEnd="62dp"
-                        android:layout_marginRight="62dp"
-                        android:layout_marginBottom="0dp"
+                        android:layout_marginStart="79dp"
+                        android:layout_marginLeft="79dp"
+                        android:layout_marginEnd="80dp"
+                        android:layout_marginRight="80dp"
+                        android:layout_marginBottom="-2dp"
                         android:contentDescription="logo"
                         app:srcCompat="@drawable/finek_final_sans"
                         tools:layout_editor_absoluteX="119dp"
@@ -100,7 +100,7 @@
                     android:onClick="onLoginClick"
                     android:text="@string/new_user"
                     android:textAlignment="center"
-                    android:textColor="@color/themeColor"
+                    android:textColor="@color/colorTextView"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
@@ -155,14 +155,15 @@
 
             </LinearLayout>
         </ScrollView>
+
         <View
-            android:layout_marginTop="20dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_width="11dp"
+            android:layout_width="15dp"
             android:layout_height="match_parent"
-            android:background="@drawable/ic_side_bg"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/ic_side_bg" />
 
         <ImageView
             android:layout_width="50dp"
