@@ -79,13 +79,13 @@
 
                 <TextView
                     style="@style/viewParent"
-                    android:text="@string/mdp_oublie"
                     android:layout_gravity="end"
                     android:layout_marginTop="10dp"
-                    android:textColor="@color/primaryTextColor"
+                    android:text="@string/mdp_oublie"
+                    android:textColor="@color/colorTextView"
                     android:textSize="@dimen/newsMoreTextSize" />
                 <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
-                    android:id="@+id/cirLoginButton"
+                    android:id="@+id/loginButton"
                     style="@style/loginButton"
                     app:spinning_bar_width="4dp"
                     app:spinning_bar_color="#FFF"
@@ -136,6 +136,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/Line"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
@@ -145,12 +146,15 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_facebook"
                         android:contentDescription="facebook"/>
+
                     <ImageView
+                        android:id="@+id/signInGoogle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_google_plus"
                         android:layout_marginLeft="10dp"
-                        android:contentDescription="google plus"/>
+                        android:contentDescription="google plus"
+                        android:onClick="onClick"
+                        android:src="@drawable/ic_google_plus" />
                 </LinearLayout>
 
             </LinearLayout>
